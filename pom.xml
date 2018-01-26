@@ -4,7 +4,7 @@
 	<groupId>wang.igood</groupId>
 	<artifactId>db</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -78,8 +78,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>${java.version}</source>
-					<target>${java.version}</target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<compilerId>eclipse</compilerId>
 				</configuration>
 				<dependencies>
